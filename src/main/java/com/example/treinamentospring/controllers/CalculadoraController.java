@@ -12,7 +12,7 @@ public class CalculadoraController {
         return a+b;
     }
 
-    @GetMapping
+    @GetMapping("/subtrair")
     public int subtrair(@RequestParam(name = "a") int a,
                         @RequestParam(name = "b") int b){
         return a-b;

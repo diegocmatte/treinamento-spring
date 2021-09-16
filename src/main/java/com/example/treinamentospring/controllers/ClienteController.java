@@ -1,6 +1,6 @@
 package com.example.treinamentospring.controllers;
 
-import com.example.treinamentospring.models.Cliente;
+import com.example.treinamentospring.model.entities.Cliente;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
